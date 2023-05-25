@@ -13,7 +13,7 @@ app.use(createPinia())
 app.use(router)
 Sentry.init({
   app,
-  dsn: "http://2e9c723432674f6dba31a0891a3068f5@34.127.39.185:9000/2",
+  dsn: "http://b9e7333be50a45f3a3cd73931693db4a@34.125.166.65:9000/2",
   debug: true, // 嘗試給出更多錯誤資訊, 通常不建議在生產中打開它，儘管打開debug模式不會引起任何安全問題
   release: '1.0.0', // 版本號, 可認package.json 或任何你自定義的版本
   integrations: [
